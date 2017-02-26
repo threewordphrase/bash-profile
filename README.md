@@ -5,5 +5,5 @@ A bash profile broken into partials, making it easier to source only what you ne
 ```
 git clone https://github.com/crypticsymbols/bash-profile
 cd bash-profile
-./setup.sh
+ln -s ./bash_profile ~/.bash_profile
 ```
