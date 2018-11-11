@@ -10,6 +10,10 @@ alias gp="git push"
 alias d="docker"
 alias dc="docker-compose"
 
+derp() {
+ ssh -i ~/.ssh/aws_works2.pem ubuntu@$1
+}
+
 circle-bust() {
   curl -X POST \
   --header "Content-Type: application/json" \
