@@ -11,7 +11,7 @@ alias d="docker"
 alias dc="docker-compose"
 
 derp() {
- ssh -i ~/.ssh/aws_works2.pem ubuntu@$1
+ ssh -i ~/.ssh/ox-oregon.pem ec2-user@$1
 }
 
 circle-bust() {
