@@ -6,3 +6,4 @@ alias ls="ls -Ga"
 alias rsync="rsync --progress"
 
 export EDITOR=nvim
+export BASH_SILENCE_DEPRECATION_WARNING=1
