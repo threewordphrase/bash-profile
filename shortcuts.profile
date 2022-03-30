@@ -10,9 +10,10 @@ alias gp="git push"
 alias d="docker"
 alias dc="docker-compose"
 
-# derp() {
- # ssh -i ~/.ssh/ox-oregon.pem ec2-user@$1
-# }
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        # pbcopy emulation
+	alias pbcopy="tr -d '\n' | xclip -sel clip"
+fi
 
 # circle-bust() {
   # curl -X POST \
