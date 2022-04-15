@@ -2,6 +2,7 @@
 # $PATH modifications
 #
 export PATH=~/scripts:$PATH # Scripts directory path
+export PATH=$HOME/.local/bin:${PATH} # Homebrew
 export PATH=/usr/local/bin:${PATH} # Homebrew
 export GOPATH=$HOME/go # Go
 export PATH=$PATH:$GOPATH/bin # Go

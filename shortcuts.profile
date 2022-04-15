@@ -15,6 +15,9 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	alias pbcopy="tr -d '\n' | xclip -sel clip"
 fi
 
+alias make-venv="virtualenv --python python3 .venv"
+alias activate=". ./.venv/bin/activate"
+
 # circle-bust() {
   # curl -X POST \
   # --header "Content-Type: application/json" \
