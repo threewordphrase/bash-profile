@@ -12,7 +12,8 @@ alias dc="docker-compose"
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         # pbcopy emulation
-	alias pbcopy="tr -d '\n' | xclip -sel clip"
+  alias pbcopy="tr -d '\n' | xclip -sel clip"
+  alias open="xdg-open"
 fi
 
 alias make-venv="virtualenv --python python3 .venv"
