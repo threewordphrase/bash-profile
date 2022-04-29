@@ -8,7 +8,7 @@ alias gc="git commit -m"
 alias ga="git add -p" # interactive add
 alias gp="git push"
 alias d="docker"
-alias dc="docker-compose"
+alias dc="docker compose"
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         # pbcopy emulation
