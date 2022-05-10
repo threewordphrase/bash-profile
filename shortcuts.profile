@@ -12,7 +12,7 @@ alias dc="docker compose"
 
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         # pbcopy emulation
-  alias pbcopy="tr -d '\n' | xclip -sel clip"
+  alias pbcopy="xclip -sel clip"
   alias open="xdg-open"
 fi
 
